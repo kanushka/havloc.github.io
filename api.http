@@ -1,0 +1,26 @@
+# variables
+@baseUrl = https://jsonplaceholder.typicode.com
+@contentType = application/json
+@createdAt = {{$datetime 'YYYY-MM-DD'}}
+
+
+# todo
+
+# get all todos
+# @name getTodo
+GET {{baseUrl}}/todos HTTP/1.1
+
+# get specific todo
+GET {{baseUrl}}/todos/1 HTTP/1.1
+
+
+# add new todo
+# @name createTodo
+POST {{baseUrl}}/todos HTTP/1.1
+content-type: {{contentType}}
+
+{
+  "userId": 1,
+  "title": "losei ajdklfjie kdakjfdlk iefalk",
+  "completed": false
+}

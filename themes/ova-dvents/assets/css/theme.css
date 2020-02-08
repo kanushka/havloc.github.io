@@ -3413,7 +3413,7 @@ input:-ms-input-placeholder {
 }
 
 .footer__contact .icon {
-  margin-right: 0;
+  margin-right: 5px;
   padding-right: 16px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
